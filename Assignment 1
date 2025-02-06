@@ -40,3 +40,63 @@ echo "Total price: $" . $finalPrice;
 
 ?>
 
+
+//Second Challenge Part
+
+<?php
+// Challenge 1: Basic Arithmetic Operations
+$number1 = 10;
+$number2 = 5;
+
+echo "Number 1: $number1\n";
+echo "Number 2: $number2\n";
+
+echo "Addition: " . ($number1 + $number2) . "\n";
+echo "Subtraction: " . ($number1 - $number2) . "\n";
+echo "Multiplication: " . ($number1 * $number2) . "\n";
+echo "Division: " . ($number1 / $number2) . "\n";
+echo "Modulus: " . ($number1 % $number2) . "\n";
+
+// Challenge 2: Check If a Number is Even or Odd
+$number = 7;
+
+if ($number % 2 == 0) {
+    echo "$number is an even number.\n";
+} else {
+    echo "$number is an odd number.\n";
+}
+
+// Challenge 3: Increment and Decrement Operators
+$number = 10;
+
+echo "Starting number: $number\n";
+$number++;
+echo "After increment: $number\n";
+$number--;
+echo "After decrement: $number\n";
+
+// Challenge 4: Assign a Grade Based on Marks
+$marks = 85;
+
+if ($marks >= 90) {
+    echo "You got an A!\n";
+} elseif ($marks >= 80) {
+    echo "You got a B!\n";
+} elseif ($marks >= 70) {
+    echo "You got a C!\n";
+} elseif ($marks >= 60) {
+    echo "You got a D!\n";
+} else {
+    echo "You got an F!\n";
+}
+
+// Challenge 5: Leap Year Check
+$year = 2024;
+
+if (($year % 4 == 0 && $year % 100 != 0) || ($year % 400 == 0)) {
+    echo "$year is a leap year.\n";
+} else {
+    echo "$year is not a leap year.\n";
+}
+?>
+
