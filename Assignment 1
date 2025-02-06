@@ -1,1 +1,42 @@
+<?php
+
+// Challenge 1: Displaying Information
+$name = "Angel Escalera";
+$age = 40;
+$favorite_color = "blue";
+echo "My name is $name, I am $age years old and my favorite color is $favorite_color.";
+
+echo "\n\n"; // Adding space between challenges
+
+// Challenge 2: Using Escape Characters
+echo "\"He said, \"PHP is fun!\" and left.\"";
+echo "\nFirst line\nSecond line";
+
+echo "\n\n";
+
+// Challenge 3: Correcting Syntax Errors
+$age = 40; // Define the missing variable
+$greeting = 'Hello'; // Fixed missing quote
+echo "Welcome to the PHP world!";
+echo "Your age is $age"; // Fixed concatenation and syntax errors
+
+echo "\n\n";
+
+// Challenge 4: Fix Error
+echo "Welcome to PHP!";
+$name = "Angel Escalera"; // Fixed variable assignment with proper quotes
+echo "Hello, $name"; // Fixed string syntax
+
+echo "\n\n";
+
+// Challenge 5: Adding Comments to Code
+
+$price = 50; // Assign the initial price
+$discount = 10; // Define the discount amount
+$finalPrice = $price - $discount; // Calculate the final price
+
+// Output the total price
+echo "Total price: $" . $finalPrice;
+
+?>
 
